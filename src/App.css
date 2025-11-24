@@ -1,0 +1,43 @@
+.text-input-page-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	padding: 24px;
+}
+
+.text-input-buttons-container {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.autocomplete-container {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	position: relative;
+}
+
+.autocomplete-suggestions {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	border: 1px solid #ccc;
+	background-color: white;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	z-index: 10;
+}
+
+.autocomplete-suggestion-item {
+	padding: 4px 8px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.autocomplete-suggestion-item:hover {
+	background-color: #f0f0f0;
+}
