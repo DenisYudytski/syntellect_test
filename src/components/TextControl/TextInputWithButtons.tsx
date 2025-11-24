@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
 import { ITextInputWithButtonsViewModel } from "../../types/TextInputWithButtonsViewModel";
-import { BaseInput } from "../ui/BaseInput/BaseInput";
-import { Button } from "../ui/Button/Button";
+import { BaseInput } from "../../ui/BaseInput/BaseInput";
+import { Button } from "../../ui/Button/Button";
 
 export const TextInputWithButtons = observer(
   ({ viewModel }: { viewModel: ITextInputWithButtonsViewModel }) => {

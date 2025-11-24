@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { observer } from "mobx-react-lite";
-import { BaseInput } from "../ui/BaseInput/BaseInput";
+import { BaseInput } from "../../ui/BaseInput/BaseInput";
 import { IAutocompleteViewModel } from "../../types/AutocompleteViewModel";
 
 export const AutocompleteControl = observer(
